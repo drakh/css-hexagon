@@ -3,6 +3,13 @@ css based hexagon
 you can create CSS hexagon this way : https://jtauber.github.io/articles/css-hexagon.html, http://csshexagon.com/ or you can make it little bit more universal.
 
 just edit the dimensions of the wrapping element - MUST BE SQUARE!! 
+
+## See the examples
+http://drakh.github.io/css-hexagon/examples/basic-usage.html
+http://drakh.github.io/css-hexagon/examples/shadowed.html
+http://drakh.github.io/css-hexagon/examples/hexagon-inside-hexagon.html
+http://drakh.github.io/css-hexagon/examples/inception.html
+
 ```html
 <div class="wrp">
 	<div class="hexagon red">
