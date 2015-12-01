@@ -18,6 +18,11 @@ $shadow-color: rgba(0, 0, 0, 0.3);
   background-color: $col;
 }
 
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
 .hexagon {
   position: relative;
   width: $hexa-width;
@@ -80,6 +85,28 @@ $shadow-color: rgba(0, 0, 0, 0.3);
 
 .hexagon-wrapper {
   position: relative;
-  width: 10em;
-  height: 10em;
+  @include square(10em);
+  &.small {
+    @include square(5em);
+  }
+  &.big {
+    @include square(20em);
+  }
+  &.marha {
+    @include square(60em);
+  }
+  &.responsive {
+    @media screen and (min-width: 35.5em) {
+      @include square(20em)
+    }
+    @media screen and (min-width: 48em) {
+      @include square(30em)
+    }
+    @media screen and (min-width: 64em) {
+      @include square(40em)
+    }
+    @media screen and (min-width: 80em) {
+      @include square(50em)
+    }
+  }
 }

@@ -428,5 +428,30 @@ body {
   position: relative;
   width: 10em;
   height: 10em; }
+  .hexagon-wrapper.small {
+    width: 5em;
+    height: 5em; }
+  .hexagon-wrapper.big {
+    width: 20em;
+    height: 20em; }
+  .hexagon-wrapper.marha {
+    width: 60em;
+    height: 60em; }
+  @media screen and (min-width: 35.5em) {
+    .hexagon-wrapper.responsive {
+      width: 20em;
+      height: 20em; } }
+  @media screen and (min-width: 48em) {
+    .hexagon-wrapper.responsive {
+      width: 30em;
+      height: 30em; } }
+  @media screen and (min-width: 64em) {
+    .hexagon-wrapper.responsive {
+      width: 40em;
+      height: 40em; } }
+  @media screen and (min-width: 80em) {
+    .hexagon-wrapper.responsive {
+      width: 50em;
+      height: 50em; } }
 
 /*# sourceMappingURL=base.css.map */
