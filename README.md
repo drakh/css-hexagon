@@ -5,10 +5,10 @@ you can create CSS hexagon this way : https://jtauber.github.io/articles/css-hex
 just edit the dimensions of the wrapping element - MUST BE SQUARE!! 
 
 ## See the examples
-http://drakh.github.io/css-hexagon/examples/basic-usage.html
-http://drakh.github.io/css-hexagon/examples/shadowed.html
-http://drakh.github.io/css-hexagon/examples/hexagon-inside-hexagon.html
-http://drakh.github.io/css-hexagon/examples/inception.html
+* [Basic usage](http://drakh.github.io/css-hexagon/examples/basic-usage.html)
+* [Shadowed hexagon](http://drakh.github.io/css-hexagon/examples/shadowed.html)
+* [Hexagon inside hexagon](http://drakh.github.io/css-hexagon/examples/hexagon-inside-hexagon.html)
+* [We must go deeper](http://drakh.github.io/css-hexagon/examples/inception.html)
 
 ```html
 <div class="wrp">
