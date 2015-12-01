@@ -9,6 +9,8 @@ just edit the dimensions of the wrapping element - MUST BE SQUARE!!
 * [Shadowed hexagon](http://drakh.github.io/css-hexagon/examples/shadowed.html)
 * [Hexagon inside hexagon](http://drakh.github.io/css-hexagon/examples/hexagon-inside-hexagon.html)
 * [We must go deeper](http://drakh.github.io/css-hexagon/examples/inception.html)
+* [Different sizes](http://drakh.github.io/css-hexagon/examples/sizes.html)
+* [Responsive](http://drakh.github.io/css-hexagon/examples/responsive.html)
 
 ```html
 <div class="wrp">
